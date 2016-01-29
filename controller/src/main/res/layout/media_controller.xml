@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:background="@drawable/player_top_gradation">
+
+    <ImageView
+            android:id="@+id/vertical_player_top_gradation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:visibility="gone"/>
+    <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="0dp"
+            android:paddingLeft="0dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="0dp"
+            android:minHeight="4px"
+            android:progressDrawable="@drawable/player_simple_progress_bar"
+            android:thumb="@null"/>
+
+</RelativeLayout>
